@@ -2,7 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   width: 600px;       
-  border-radius: 20px;   
+  border-radius: 20px;  
+  order: 4px solid black;
+  overflow: hidden;  
+  outline: solid black;
 }
 
 .item{
@@ -41,5 +44,5 @@
 .item:nth-child(4){
   order: 5;
   width: 33%;
-  background:darkblue;
+  background:yellow;
 }
