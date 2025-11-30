@@ -1,5 +1,6 @@
+
 .holder{
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
   width: 600px;       
   border-radius: 20px;  
@@ -9,7 +10,7 @@
 }
 
 .item{
-  height: 120px;
+ height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,32 +18,31 @@
 }
 
 .item:nth-child(1){
-  order: 1;
-  width: 60%;
-  background:hotpink;
+    order: 1;
+  width:50%;
+ background:hotpink;
 }
 
 .item:nth-child(5){
-  order: 2;
-  width: 40%;
+   order: 2;
+  width:50%;
   background: darkgreen;
 }
 
-
 .item:nth-child(3){
-  order: 3;
-  width: 33%;
-  background:lightblue;
+  width:33%;
+   order: 3;
+  background: burlywood;
 }
 
 .item:nth-child(2){
   order: 4;
-  width: 33%;
-  background: burlywood;
+  width:33%;
+  background:yellow;
 }
 
 .item:nth-child(4){
-  order: 5;
-  width: 33%;
-  background:yellow;
-}
+   order: 5;
+  width:33%;
+  background: lightblue;
+} 
